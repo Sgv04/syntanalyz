@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main() {
+    int x = 0;
+    do {
+        std::cout << ".";
+        x++;
+    } while (x < 5);
+
+    while (x > 0) {
+        std::cout << "Inside while loop\n";
+        x--;
+    }
+
+    if (x == 0) {
+        for (int i = 0; i < 3; i++) {
+            std::cout << "Inside for loop\n";
+        }
+    }
+
+    return 0;
+
+} 
